@@ -1,0 +1,121 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #50E3C2;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
+
+}
+.container-main
+{
+    width: 65%;
+    height: 600px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+
+}
+.container-box1
+{
+    width: 50%;
+    height: 600px;
+  
+}
+.content h1
+{
+    text-align: center;
+    padding-top: 30%;
+    font-size: 35px;
+  
+}
+.content p
+{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 90px;
+}
+.container-box2
+{
+    width: 50%;
+    height: 650px;
+    background-color:white;
+    border-radius: 30px;
+    backdrop-filter: blur(8px) saturate(72%);
+    -webkit-backdrop-filter: blur(8px) saturate(72%);
+    background-color: rgba(255, 255, 255, 0.59);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.container-box2 .box 
+{
+    width: 90%;
+    height: 570px;
+    margin: auto;
+    margin-top:15px;
+}
+.box h1
+{
+    text-align: center;
+    font-size: 43px;
+    font-family: candara;
+}
+.a1 
+{
+    width:80%;
+    height:10%;
+    margin-left:10%;
+    margin-top: 5%;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+::placeholder
+{
+    padding-left:10px;
+    font-size: 15px;
+}
+.a2
+{
+    width:80%;
+    height:10%;
+    margin-left:10%;
+    margin-top: 4%;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+#a4
+{
+    width:80%;
+    height:18%;
+    margin-left:10%;
+    margin-top: 4%;
+    border-radius: 5px;
+    border:1px solid grey;
+    font-size: 15px;
+    color: rgb(114, 108, 108);
+    padding: 10px 10px;
+}
+.a3
+{
+    width:80%;
+    height:10%;
+    margin-left:10%;
+    margin-top: 2%;
+    border: none;
+    background-color:rgb(71, 154, 232);
+    border-radius: 5px;
+}
+.a3::placeholder
+{
+    color: black;
+    font-size: 20px;
+    padding-left:43%;
+}
